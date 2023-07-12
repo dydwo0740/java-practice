@@ -1,6 +1,8 @@
 package next.reflection;
 
 public class Junit3Test {
+
+
     public void test1()  {
         System.out.println("Running Test1");
     }
@@ -12,4 +14,6 @@ public class Junit3Test {
     public void three() {
         System.out.println("Running Test3");
     }
+
+
 }

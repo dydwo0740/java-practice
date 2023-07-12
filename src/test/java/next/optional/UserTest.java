@@ -3,6 +3,9 @@ package next.optional;
 
 import org.junit.jupiter.api.Test;
 
+import java.lang.reflect.Constructor;
+import java.lang.reflect.InvocationTargetException;
+
 import static next.optional.User.*;
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -24,4 +27,5 @@ public class UserTest {
         assertThat(ageIsInRange2(new User("crong", 29))).isFalse();
         assertThat(ageIsInRange2(null)).isFalse();
     }
+
 }
